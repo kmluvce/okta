@@ -7,4 +7,4 @@ Failed Logins by Location,
 Application Severity
 
 # Prerequisite
-you need to use Okta Identity Cloud Add-on for Splunk https://splunkbase.splunk.com/app/3682/#/overview and ingest okta logs in Splunk
+You have to install Okta Identity Cloud Add-on for Splunk https://splunkbase.splunk.com/app/3682/#/overview to ingest okta logs in Splunk
