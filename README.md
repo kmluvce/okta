@@ -1,5 +1,5 @@
 # okta monitoring
-Okta-monitoring app is used to monitor Okta Logs and provides monitoring: 
+Okta-monitoring app is used to monitor Okta Logs and provides monitoring: <br />
 Successful Logins,
 Failed Logins,
 Successful/Failed Logins by user,
