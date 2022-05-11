@@ -5,3 +5,8 @@ modtime = 1652292444.943217000
 [app/launcher]
 version = 8.2.6
 modtime = 1652292444.944733000
+
+[views/okta_logs]
+owner = admin
+version = 8.2.6
+modtime = 1652296816.980440000
