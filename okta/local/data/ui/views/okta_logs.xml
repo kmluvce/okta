@@ -8,14 +8,6 @@
     <latest>$time.latest$</latest>
     <sampleRatio>1</sampleRatio>
   </search>
-  <search id="baseSearch2">
-    <!-- Search string -->
-    <query>index=okta sourcetype="OktaIM2:log" "outcome.result"="FAILURE"|rename "actor.displayName" AS users </query>
-    <!-- search time range -->
-    <earliest>$time.earliest$</earliest>
-    <latest>$time.latest$</latest>
-    <sampleRatio>1</sampleRatio>
-  </search>
   <fieldset submitButton="true">
     <input type="time" token="time">
       <label></label>
@@ -53,7 +45,7 @@
     </panel>
     <panel>
       <single>
-        <search base="baseSearch2">
+        <search base="baseSearch">
           <query>|search "outcome.result"="FAILURE"|stats count</query>
         </search>
         <option name="colorBy">value</option>
