@@ -227,7 +227,7 @@
       <title>All Requests wrt time</title>
       <chart>
         <search>
-          <query>index=okta sourcetype="OktaIM2:log"|timechart count</query>
+          <query>index=okta sourcetype="OktaIM2:log"|timechart count by "outcome.result"</query>
           <earliest>$time.earliest$</earliest>
           <latest>$time.latest$</latest>
           <sampleRatio>1</sampleRatio>
